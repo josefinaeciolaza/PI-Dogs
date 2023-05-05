@@ -10,12 +10,13 @@ const { getTemperament } = require('../controllers/temperamentController');
 
 const router = Router();
 
+
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
 router.get('/dogs', getDogs);
 router.get('/dogs/:id', getRaza);
 router.post('/dogs', postDog);
 router.get('/temperament', getTemperament);
-
+//router.use(express.json());
 
 module.exports = router;
