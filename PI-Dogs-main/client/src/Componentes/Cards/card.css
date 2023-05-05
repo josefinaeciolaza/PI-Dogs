@@ -1,0 +1,21 @@
+.card-conteiner{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    border: 1px solid #867f7f;
+    padding:  30px;
+    overflow: hidden;
+
+}
+
+.card-conteiner:hover {
+    transform: scale(1.05);
+}
+
+.card-conteiner img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+
